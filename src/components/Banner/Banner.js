@@ -15,7 +15,7 @@ const Banner = () => {
                         passion about programming and dedicate myself to serve the software industry.
                     </p>
                     <a href="https://drive.google.com/uc?export=download&id=16lz1tnSjMd9piaL_MkQXAbwzShIDBw4P" className='banner-button text-decoration-none text-white mx-2 px-3 py-2'>Download Resume</a>
-                    <button className='banner-button text-white mx-2 px-3 py-2'>Contact</button>
+                    <a href="#contact" className='banner-button text-white text-decoration-none mx-2 px-3 py-2'>Contact</a>
                 </Col>
             </Row>
         </Container>

@@ -13,6 +13,8 @@ const Contact = () => {
         emailjs.sendForm('service_bxh4sjn', 'template_xfaxc85', formId.current, 'user_WIHm7a7NWhMljgFvccPa5')
             .then((result) => {
                 console.log(result.text);
+                alert("You message received successfully. I will contact you soon");
+                e.target.reset();
             }, (error) => {
                 console.log(error.text);
             });
