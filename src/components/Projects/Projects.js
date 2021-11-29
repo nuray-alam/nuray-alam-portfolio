@@ -18,7 +18,7 @@ const Projects = () => {
                             <h4 className="text-dark mt-1">E-Bikes</h4>
                             <p>Electric bike selling website where customers can buy those products (bikes) and also site owners
                                 can add their products dynamically</p>
-                            <a href="https://e-bikes-d7d23.web.app/" className="btn btn-dark">Live Site</a>
+                            <a href="https://e-bikes-d7d23.web.app/" target="_blank" className="btn btn-dark">Live Site</a>
                         </div>
                     </div>
                 </Col>
@@ -33,7 +33,7 @@ const Projects = () => {
                             <h4 className="text-dark mt-1">TourEase</h4>
                             <p>This is a tourism website where you can book many types of tourism packages for worldwide exploring.
                             </p>
-                            <a href="https://tourease-4d191.web.app/home" className="btn btn-dark">Live Site</a>
+                            <a href="https://tourease-4d191.web.app/home" target="_blank" className="btn btn-dark">Live Site</a>
                         </div>
                     </div>
                 </Col>
@@ -49,7 +49,7 @@ const Projects = () => {
                             <p>This is a website for LifeCare Medical Clinic. User can make appointments,
                                 book beds and take consultancy over online.
                             </p>
-                            <button href="https://healthcare-related-websi-163fd.web.app/" className="btn btn-dark">Live Site</button>
+                            <a href="https://healthcare-related-websi-163fd.web.app/" target="_blank" className="btn btn-dark text-decoration">Live Site</a>
                         </div>
                     </div>
                 </Col>

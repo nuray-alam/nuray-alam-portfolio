@@ -60,9 +60,9 @@ const Contact = () => {
                     </div>
                     <hr className="text-white" />
                     <div>
-                        <a href="https://github.com/nuray-alam"><i class="fab fa-github fs-3 me-3"></i></a>
-                        <a href="https://www.linkedin.com/in/nurayalam/"><i class="fab fa-linkedin fs-3 me-3"></i></a>
-                        <a href="https://www.facebook.com/nurayalam.siddik.7/"><i class="fab fa-facebook fs-3"></i></a>
+                        <a href="https://github.com/nuray-alam" target="_blank"><i class="fab fa-github fs-3 me-3"></i></a>
+                        <a href="https://www.linkedin.com/in/nurayalam/" target="_blank"><i class="fab fa-linkedin fs-3 me-3"></i></a>
+                        <a href="https://www.facebook.com/nurayalam.siddik.7/" target="_blank"><i class="fab fa-facebook fs-3"></i></a>
                     </div>
 
                 </Col>

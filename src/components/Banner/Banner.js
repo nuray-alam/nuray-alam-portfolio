@@ -9,7 +9,7 @@ const Banner = () => {
                     <img className="img-fluid profile-img" src="https://i.ibb.co/tP4XmZs/small.jpg" alt="" />
                 </Col>
                 <Col>
-                    <h4 className="gray-text">MERN Developer</h4>
+                    <h4 className="text-primary">MERN Developer</h4>
                     <h1>Md. Nuray Alam Siddik</h1>
                     <p className="gray-text">Being an enthusiast about web development I want to join a software company where I can show my
                         passion about programming and dedicate myself to serve the software industry.
