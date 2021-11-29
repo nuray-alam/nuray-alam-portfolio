@@ -56,7 +56,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <i className="fas fa-envelope text-primary fs-3"></i>
-                        <span className='text-white fs-5 ms-3'>1/1 Circular Road, Kalabagan, Dhaka - 1205, Bangladesh</span>
+                        <span className='text-white fs-5 ms-3'>nuray.alam24@gmail.com</span>
                     </div>
 
                 </Col>
