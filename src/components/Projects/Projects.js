@@ -7,7 +7,7 @@ const Projects = () => {
         <Container className="my-5 pb-5">
             <h2 className="text-white text-center mb-5">Projects</h2>
             <Row xs={1} md={2} lg={3}>
-                <Col>
+                <Col className="my-2">
                     <div className="project text-justify py-2 px-3 card h-100 d-flex flex-column justify-content-between">
 
                         <div>
@@ -22,7 +22,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col className="my-2">
                     <div className="project text-justify py-2 px-3 card h-100 d-flex flex-column justify-content-between">
 
                         <div>
@@ -37,7 +37,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col className="my-2">
                     <div className="project text-justify py-2 px-3 card h-100 d-flex flex-column justify-content-between">
 
                         <div>
