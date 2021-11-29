@@ -5,13 +5,13 @@ const Header = () => {
     return (
         <Navbar bg="dark" sticky="top" variant="dark" expand="lg">
             <Container className="text-white">
-                <Navbar.Brand href="#home">Nuray Alam</Navbar.Brand>
+                <Navbar.Brand href="#home">Md. Nuray Alam Siddik</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#about">About me</Nav.Link>
-                        <Nav.Link href="#contact">Contact Me</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#contact">Contact Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

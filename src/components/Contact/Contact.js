@@ -22,7 +22,7 @@ const Contact = () => {
     }
 
     return (
-        <Container className="my-5">
+        <Container className="my-5" data-aos="fade-up">
             <h2 className="text-white text-center mb-2">Contact Me</h2>
             <Row xs={1} md={2} lg={2} >
                 <Col className="mb-5">
@@ -54,9 +54,15 @@ const Contact = () => {
                         <i className="fas fa-map-marker-alt text-primary fs-3"></i>
                         <span className='text-white fs-5 ms-3'>1/1 Circular Road, Kalabagan, Dhaka - 1205, Bangladesh</span>
                     </div>
-                    <div>
+                    <div className="mb-3">
                         <i className="fas fa-envelope text-primary fs-3"></i>
                         <span className='text-white fs-5 ms-3'>nuray.alam24@gmail.com</span>
+                    </div>
+                    <hr className="text-white" />
+                    <div>
+                        <a href="https://github.com/nuray-alam"><i class="fab fa-github fs-3 me-3"></i></a>
+                        <a href="https://www.linkedin.com/in/nurayalam/"><i class="fab fa-linkedin fs-3 me-3"></i></a>
+                        <a href="https://www.facebook.com/nurayalam.siddik.7/"><i class="fab fa-facebook fs-3"></i></a>
                     </div>
 
                 </Col>

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Banner.css'
 const Banner = () => {
     return (
-        <Container className="text-white my-5 banner">
+        <Container className="text-white my-5 banner"  data-aos="fade-up">
             <Row xs={1} md={2} lg={2} g={3} className="py-5">
                 <Col>
                     <img className="img-fluid profile-img" src="https://i.ibb.co/tP4XmZs/small.jpg" alt="" />

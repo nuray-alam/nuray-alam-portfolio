@@ -1,6 +1,6 @@
 .profile-img {
   width: 200px;
-  /* border-radius: 40% 50%; */
+  border: 5px solid gray;
   border-radius: 5px;
 }
 .gray-text {
