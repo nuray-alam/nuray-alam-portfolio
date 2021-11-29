@@ -22,7 +22,7 @@ const Contact = () => {
     }
 
     return (
-        <Container className="my-5" data-aos="fade-up">
+        <Container className="my-5" data-aos="fade-up" data-aos-duration="2000">
             <h2 className="text-white text-center mb-2">Contact Me</h2>
             <Row xs={1} md={2} lg={2} >
                 <Col className="mb-5">

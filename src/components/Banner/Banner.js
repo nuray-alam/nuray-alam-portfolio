@@ -3,12 +3,12 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './Banner.css'
 const Banner = () => {
     return (
-        <Container className="text-white my-5 banner"  data-aos="fade-up">
+        <Container className="text-white my-5 banner">
             <Row xs={1} md={2} lg={2} g={3} className="py-5">
                 <Col>
                     <img className="img-fluid profile-img" src="https://i.ibb.co/tP4XmZs/small.jpg" alt="" />
                 </Col>
-                <Col>
+                <Col data-aos="zoom-in" data-aos-duration="1500">
                     <h4 className="text-primary">MERN Developer</h4>
                     <h1>Md. Nuray Alam Siddik</h1>
                     <p className="gray-text">Being an enthusiast about web development I want to join a software company where I can show my
