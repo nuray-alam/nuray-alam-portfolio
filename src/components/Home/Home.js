@@ -2,12 +2,17 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 import './Home.css'
 const Home = () => {
     return (
         <div>
             <div id="about">
                 <Banner></Banner>
+            </div>
+            <hr className="" style={{ color: "#007CED", width: "75%", margin: "0px auto" }} />
+            <div id="skills">
+                <Skills></Skills>
             </div>
             {/* <hr className="text-white" /> */}
             <hr className="" style={{ color: "#007CED", width: "75%", margin: "0px auto" }} />
@@ -19,6 +24,7 @@ const Home = () => {
             <div id="contact">
                 <Contact></Contact>
             </div>
+
 
         </div>
     );

@@ -22,10 +22,10 @@ const Contact = () => {
     }
 
     return (
-        <Container className="my-5">
+        <Container className="my-5" data-aos="zoom-in" data-aos-duration="1500">
             <h2 className="text-white text-center mb-2">Contact Me</h2>
             <Row xs={1} md={2} lg={2} >
-                <Col className="mb-5" data-aos="fade-right" data-aos-duration="2000">
+                <Col className="mb-5" >
                     <form ref={formId} onSubmit={onSubmit}>
                         <label className="text-white fs-5">Full Name:</label>
                         <input type="text" className="form-control" required name="name" />
@@ -44,7 +44,7 @@ const Contact = () => {
                     </form>
 
                 </Col>
-                <Col className="d-flex flex-column justify-content-center" data-aos="fade-left" data-aos-duration="1500">
+                <Col className="d-flex flex-column justify-content-center" >
 
                     <div className="mb-3">
                         <i className="fas fa-phone-square-alt fs-3 text-primary"></i>
@@ -60,9 +60,9 @@ const Contact = () => {
                     </div>
                     <hr className="text-white" />
                     <div>
-                        <a href="https://github.com/nuray-alam" target="_blank"><i class="fab fa-github fs-3 me-3"></i></a>
-                        <a href="https://www.linkedin.com/in/nurayalam/" target="_blank"><i class="fab fa-linkedin fs-3 me-3"></i></a>
-                        <a href="https://www.facebook.com/nurayalam.siddik.7/" target="_blank"><i class="fab fa-facebook fs-3"></i></a>
+                        <a href="https://github.com/nuray-alam" target="_blank"><i className="fab fa-github fs-3 me-3"></i></a>
+                        <a href="https://www.linkedin.com/in/nurayalam/" target="_blank"><i className="fab fa-linkedin fs-3 me-3"></i></a>
+                        <a href="https://www.facebook.com/nurayalam.siddik.7/" target="_blank"><i className="fab fa-facebook fs-3"></i></a>
                     </div>
 
                 </Col>
