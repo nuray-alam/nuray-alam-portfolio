@@ -22,10 +22,10 @@ const Contact = () => {
     }
 
     return (
-        <Container className="my-5" data-aos="fade-up" data-aos-duration="2000">
+        <Container className="my-5">
             <h2 className="text-white text-center mb-2">Contact Me</h2>
             <Row xs={1} md={2} lg={2} >
-                <Col className="mb-5">
+                <Col className="mb-5" data-aos="fade-right" data-aos-duration="2000">
                     <form ref={formId} onSubmit={onSubmit}>
                         <label className="text-white fs-5">Full Name:</label>
                         <input type="text" className="form-control" required name="name" />
@@ -44,7 +44,7 @@ const Contact = () => {
                     </form>
 
                 </Col>
-                <Col className="d-flex flex-column justify-content-center">
+                <Col className="d-flex flex-column justify-content-center" data-aos="fade-left" data-aos-duration="1500">
 
                     <div className="mb-3">
                         <i className="fas fa-phone-square-alt fs-3 text-primary"></i>

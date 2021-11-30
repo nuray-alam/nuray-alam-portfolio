@@ -9,11 +9,13 @@ const Home = () => {
             <div id="about">
                 <Banner></Banner>
             </div>
-            <hr className="text-white" />
+            {/* <hr className="text-white" /> */}
+            <hr className="" style={{ color: "#007CED", width: "75%", margin: "0px auto" }} />
             <div id="projects">
                 <Projects></Projects>
             </div>
-            <hr className="text-white" />
+            {/* <hr className="text-white" /> */}
+            <hr className="" style={{ color: "#007CED", width: "75%", margin: "0px auto" }} />
             <div id="contact">
                 <Contact></Contact>
             </div>
